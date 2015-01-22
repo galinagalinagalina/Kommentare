@@ -1,0 +1,12 @@
+
+*.aux
+
+*.log
+
+*.pdf
+
+*.out
+
+*.gz
+
+.*.swp
