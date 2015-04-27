@@ -137,3 +137,5 @@ Session.vim
 #
 # epub subdirectory
 epub/
+
+*.pdf
