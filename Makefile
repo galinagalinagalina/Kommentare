@@ -1,6 +1,6 @@
 .PHONY : clean
 
-Kommentare-Abschlussarbeit.pdf : Kommentare-Abschlussarbeit.tex
+Kommentare-Abschlussarbeit.pdf : Kommentare-Abschlussarbeit.tex Tabellen/*.tex
 	pdflatex $^
 	pdflatex $^
 	pdflatex $^
