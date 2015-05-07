@@ -63,17 +63,21 @@ machen, was die Zeitungen extra erwähnt haben wollen und was nicht.
 
 \begin{landscape}\footnotesize
 \begin{longtable}{lp{170mm}}
-\caption{Kategorie inhaltliche Regeln}
-% TODO \footnote{In der ersten Zeile steht, wo diese Regeln zu finden sind und wo eine Zustimmung mit Anklicken gefordert wird.}
-\\
-\bfseries Portal & \multicolumn{1}{c}{\textbf{Inhaltliche Regeln}}\\ \hline
-\endfirsthead
-\bfseries Portal & \multicolumn{1}{c}{\textbf{Inhaltliche Regeln}}\\ \hline
-\endhead
-\hline \multicolumn{2}{r}{\emph{Fortsetzung auf der nächsten Seite}}
-\endfoot
-\hline
-\endlastfoot
+  \caption{Kategorie inhaltliche Regeln} \\ \\
+  % TODO \footnote{In der ersten Zeile steht, wo diese Regeln zu finden sind und wo eine Zustimmung mit Anklicken gefordert wird.}
+  \toprule
+  \bfseries Portal & \multicolumn{1}{c}{\textbf{Inhaltliche Regeln}}\\\midrule[\heavyrulewidth]
+  \endfirsthead
+
+  \toprule
+  \bfseries Portal & \multicolumn{1}{c}{\textbf{Inhaltliche Regeln}}\\\midrule[\heavyrulewidth]
+  \endhead
+
+  \multicolumn{2}{r}{\emph{Fortsetzung auf der nächsten Seite}}
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
 
 
 bild.de &  \emph{Nutzungsbedingungen: allgemeine und besondere (Zustimmung verlangt
@@ -87,14 +91,15 @@ bild.de &  \emph{Nutzungsbedingungen: allgemeine und besondere (Zustimmung verla
 	Angaben\footnote{Angaben von Postadresse und/oder Telefonnummer und/oder
 	Emailadresse oder Angaben über Dritte verbreiten; keine automatisierte
 	Nutzung; kein Mobbing; keine Links zu Werbung, Chats, Foren; Datensicherung vom
-	Nutzer selbst; keine Trolle; kein Spam}\tabularnewline\hline
+	Nutzer selbst; keine Trolle; kein Spam}\tabularnewline\midrule
 
 spiegel.de & \emph{Nutzungsbedingungen: allgemeine und für Foren (Zustimmung)}
 
 	faire, sachliche, angenehme, offene, freundschaftliche, respektvolle
 	Diskussion (auch bei Streit), obwohl es sich um verbale
 	Auseinandersetzung handeln soll; keine Beiträge mit
-	strafbaren, inakzeptablen, nicht-themenbezogenen Inhalten;\tabularnewline\hline
+	strafbaren, inakzeptablen, nicht-themenbezogenen
+  Inhalten;\tabularnewline\midrule
 
 faz.net & \emph{Nutzungsbedingungen: allgemein (Zustimmung); \glqq wie Sie mit
 	diskutieren\grqq-Button}
@@ -102,7 +107,7 @@ faz.net & \emph{Nutzungsbedingungen: allgemein (Zustimmung); \glqq wie Sie mit
 	keine Beiträge mit links- und
 	rechtsradikalen, verleumderischen, ruf- oder geschäftsschädigenden Inhalten;
 	keine falschen, nicht nachprüfbaren Behauptungen; keine
-	Hyperlinks\tabularnewline\hline
+	Hyperlinks\tabularnewline\midrule
 
 focus.de & \emph{AGB (Zustimmung), Netiquette (Zustimmung)}
 	
@@ -113,7 +118,7 @@ focus.de & \emph{AGB (Zustimmung), Netiquette (Zustimmung)}
 	Herkunft, Nationalität, Religion, sexueller Orientierung, Alter,
 	Geschlecht, usw.}; keine Beiträge mit  demagogischen Inhalten; keine
 	Schadsoftware verwenden, kein Missbrauch von Daten; Datensicherung vom
-	Nutzer selbst;\tabularnewline\hline
+	Nutzer selbst;\tabularnewline\midrule
 
 diewelt.de & \emph{Nutzungsbedingungen, veraltete Netiquette}
 
@@ -121,7 +126,7 @@ diewelt.de & \emph{Nutzungsbedingungen, veraltete Netiquette}
 	Be\-schim\-pfung\-en, Dis\-kri\-mi\-nie\-run\-gen, Pro\-vo\-ka\-tio\-nen, Ent\-wür\-di\-gung\-en, Auf\-ruf zu
 	Demonstrationen oder Gewalt; Gesetze beachten; keine Angaben über Dritte
 	verbreiten; keine Hasspropaganda; kein Hinweis auf
-	Haftungsausschluss\tabularnewline\hline
+	Haftungsausschluss\tabularnewline\midrule
 
 derwesten.de & \emph{Nutzungsbedingungen (Zustimmung), Netiquette}
 
@@ -129,7 +134,7 @@ derwesten.de & \emph{Nutzungsbedingungen (Zustimmung), Netiquette}
 	Ver\-an\-stal\-tungs\-ka\-len\-der, keine Ter\-min\-an\-kün\-di\-gun\-gen; Zitate müssen
 	Quellenangabe enthalten; keine Beiträge mit
 	ge\-walt\-ver\-herr\-lich\-en\-den/an\-ti\-se\-mi\-ti\-schen/ge\-set\-zes\-wi\-dri\-gen
-	Inhalten\tabularnewline\hline
+	Inhalten\tabularnewline\midrule
 
 % Spalte 9
 rp-online.de & \emph{AGB}
@@ -143,7 +148,7 @@ rp-online.de & \emph{AGB}
 	von Verstorbenen und deren Angehörigen schaden könnten, die doppeldeutig
 	sind oder anderweitige Darstellungen, deren Rechtswidrigkeit vermutet
 	wird, aber nicht abschließend festgestellt werden kann; keine
-	unwahren, unsachlichen Beiträge; keine Schadsoftware\tabularnewline\hline
+	unwahren, unsachlichen Beiträge; keine Schadsoftware\tabularnewline\midrule
 
 % Spalte 10
 handelsblatt.de & \emph{Nutzungshinweise (Zustimmung), Netiquette}
@@ -157,7 +162,7 @@ handelsblatt.de & \emph{Nutzungshinweise (Zustimmung), Netiquette}
 	ignorieren von Provokationen, Trollen; keine
 	Junkmails, Spam, Scraping, sonstige rechtswidrige Kommunikationsformen;
 	keine Nennung von Produktnamen, Dienstleistern, Marken, Produzenten; kein
-	Hinweis auf Nutzungsrechte von handelsblatt.de\tabularnewline\hline
+	Hinweis auf Nutzungsrechte von handelsblatt.de\tabularnewline\midrule
 
 % Spalte 11
 suedkurier.de & \emph{Nutzungsbedingungen (Zustimmung), Netiquette}
@@ -166,7 +171,7 @@ suedkurier.de & \emph{Nutzungsbedingungen (Zustimmung), Netiquette}
 	Be\-haup\-tun\-gen, Ver\-leum\-dun\-gen, Dif\-fam\-ier\-un\-gen, Dro\-hun\-gen, Dis\-kri\-mi\-nie\-run\-gen
 	aller Art, Hetze, Ge\-walt\-ver\-herr\-li\-chung, Vul\-gär\-aus\-drücke; keine Beiträge mit
 	ruf- oder geschäftsschädigenden Inhalten; keine Veröffentlichung Daten
-	Dritter\tabularnewline\hline
+	Dritter\tabularnewline\midrule
 
 
 % Spalte 12
@@ -179,7 +184,7 @@ zeit.de & \emph{AGB (Zustimmung), Netiquette (besonders ausführlich und erklär
 	prüfbare Unterstellungen, Verdächtigungen; nachvollziehbare Aussagen;
 	keine Beiträge mit ruf- oder geschäftsschädigenden Inhalten;  keine
 	Veröffentlichung Daten Dritter; sich bewusst machen, welche persönlichen
-	Daten frei zugänglich werden; keine Schadsoftware\tabularnewline\hline
+	Daten frei zugänglich werden; keine Schadsoftware\tabularnewline\midrule
 
 % Spalte 13
 badische zeitung.de & \emph{AGB (Zustimmung), Netiquette}
@@ -188,7 +193,7 @@ badische zeitung.de & \emph{AGB (Zustimmung), Netiquette}
 	sein; guter Umgangston, andere so behandeln, wie man es selber möchte;
 	keine persönlichen Angriffe; keine Beiträge mit
 	vulgärem, hetzerischem, gewaltverherrlichendem Inhalt; keine privaten
-	Daten\tabularnewline\hline
+	Daten\tabularnewline\midrule
 
 % Spalte 14
 stuttgarter-zeitung.de & \emph{AGB (Zustimmung), Kommentarregeln = Netiquette}
@@ -201,7 +206,7 @@ stuttgarter-zeitung.de & \emph{AGB (Zustimmung), Kommentarregeln = Netiquette}
 	die guten Sitten verstoßenden Inhalten; keine Trolle; keine
 	Junkmails, Spam, Kettenbriefe; keine privaten Daten; keine
 	Veröffentlichung Daten Dritter;  nur für private Zwecke (keine
-	Vervielfältigung)\tabularnewline\hline
+	Vervielfältigung)\tabularnewline\midrule
 
 % Spalte 15
 merkur.de & \emph{AGB (Zustimmung), Netiquette (Zustimmung)}
@@ -211,7 +216,7 @@ merkur.de & \emph{AGB (Zustimmung), Netiquette (Zustimmung)}
 	Meinungen akzeptieren; keine Beiträge mit
 	un\-wah\-ren, un\-sach\-lichen, ju\-gend\-ge\-fähr\-den\-den, ver\-leum\-de\-ri\-schen, ver\-fas\-sungs\-feind\-li\-chen, ex\-tre\-mis\-ti\-schen, il\-le\-ga\-len, ethisch-mo\-ra\-lisch-pro\-ble\-ma\-ti\-schen
 	Inhalten; keine Schadsoftware; keine privaten Daten; nur für private
-	Zwecke; keine Junkmails/Spam/Kettenbriefe\tabularnewline\hline
+	Zwecke; keine Junkmails/Spam/Kettenbriefe\tabularnewline\midrule
 
 % Spalte 16
 hna.de & \emph{AGB (Zustimmung), Netiquette (Zustimmung)}
@@ -222,10 +227,10 @@ hna.de & \emph{AGB (Zustimmung), Netiquette (Zustimmung)}
 	un\-wah\-ren, un\-sach\-li\-chen, ju\-gend\-ge\-fähr\-den\-den, straf\-ba\-ren, ver\-leum\-de\-ri\-schen, ver\-fas\-sungs\-feind\-li\-chen, ex\-tre\-mis\-ti\-schen, il\-le\-ga\-len, ethisch-mo\-ra\-lisch-pro\-ble\-ma\-ti\-schen
 	Inhalten; keine Schadsoftware; keine privaten Daten; kein Hinweis auf
 	Nutzungsrechte von hna.de, kein Hinweis auf
-	Haftungsausschluss\tabularnewline\hline
+	Haftungsausschluss\tabularnewline\midrule
 
 % Spalte 17
-mopo.de &  \emph{keine}\tabularnewline\hline
+mopo.de &  \emph{keine}\tabularnewline\midrule
 
 % Spalte 18
 mainpost.de& \emph{Netiquette}
@@ -236,7 +241,7 @@ mainpost.de& \emph{Netiquette}
 	Daten; keine Beiträge mit ehrverletzenden/gewaltverherrlichenden
 	Inhalten/Aufrufen zur Gewalt; Löschen von Beiträgen, die gegen das
 	Gesetz verstoßen; kein Hinweis auf Nutzungsrechte von mainpost.de, kein
-	Hinweis auf Haftungsausschluss\tabularnewline\hline
+	Hinweis auf Haftungsausschluss\tabularnewline\midrule
 
 % Spalte 19
 tagesspiegel.de & \emph{Richtlinien für Community}
@@ -251,14 +256,14 @@ tagesspiegel.de & \emph{Richtlinien für Community}
 	Weltanschauung, sozialem Status); Links zu anderen Webinhalten, Kritik an
 	Artikeln mit denselben inhaltlichen Regeln wie K.; keine
 	Mehrfachaccounts; kein Hinweis auf Nutzungsrechte von
-	tagesspiegel.de\tabularnewline\hline
+	tagesspiegel.de\tabularnewline\midrule
 
 % Spalte 20
 swp.de & \emph{Netiquette}
 
 	sachlich, fair, freundlich, wie man selbst behandelt werden möchte;
 	keine het\-ze\-ri\-schen, ge\-walt\-ver\-herr\-li\-chen\-den Töne; keine privaten Adressen;
-	keine Hinweise zu Rechten\tabularnewline\hline
+	keine Hinweise zu Rechten\tabularnewline\midrule
 
 
 % Spalte 21
@@ -276,7 +281,7 @@ augsburger-allgemeine.de & \emph{AGB, Nutzungsbedingungen der Community
   relevanten Inhalten kann Anzeige gegen den Nutzer erstattet werden;  keine
   Veröffentlichung von privaten Emails/persönlichen Daten Dritter; das Folgen
   von Tipps/Ratschlägen folgt auf eigene Gefahr; keine Kettenbriefe; keine
-  Schadsoftware;\tabularnewline\hline
+  Schadsoftware;
 \end{longtable}
 \end{landscape}
 
