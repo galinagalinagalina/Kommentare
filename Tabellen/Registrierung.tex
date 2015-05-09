@@ -53,101 +53,169 @@ Ist die Angabe eines Benutzernamens, d.h. eines frei gewählten Namens oder Spit
 
 
 \begin{landscape}\footnotesize
-  \begin{longtable}{l|p{28mm}p{20mm}p{20mm}p{90mm}}
-  \caption{Kategorie \glqq Registrierung\grqq}%\footnote{Die Angabe einer Emailadresse und eines Passworts wird immer verlangt. In der Tabelle sind weitere obligatorische Angaben, Unterkategorien, aufgeführt.}
-  \\
-\bfseries Portal & \bfseries alternative \mbox{Anmeldung} & \bfseries Klarname & \bfseries Benutzer\-name & \bfseries Sonstiges \\\hline
-\endfirsthead
+\begin{longtable}{lp{28mm}p{20mm}p{20mm}p{90mm}}
 
-\bfseries Portal & \bfseries alternative \mbox{Anmeldung} & \bfseries Klarname & \bfseries Benutzer\-name & \bfseries Sonstiges \\ \hline
-\endhead
+  \caption{Kategorie \glqq Registrierung\grqq}
+  %\footnote{Die Angabe einer Emailadresse und eines Passworts wird immer
+  %verlangt. In der Tabelle sind weitere obligatorische Angaben, Unterkategorien,
+  %aufgeführt.}
+  \\ \\
+  \toprule
+  \bfseries Portal & \bfseries alternative \mbox{Anmeldung} & \bfseries Klarname & \bfseries Benutzer\-name & \bfseries Sonstiges\\
+  \midrule[\heavyrulewidth]
+  \endfirsthead
 
-\hline \multicolumn{5}{r}{\emph{Fortsetzung auf der nächsten Seite}}
-\endfoot
+  \toprule
+  \bfseries Portal & \bfseries alternative \mbox{Anmeldung} & \bfseries Klarname & \bfseries Benutzer\-name & \bfseries Sonstiges\\
+  \midrule[\heavyrulewidth]
+  \endhead
 
-\hline
-\endlastfoot
+  \multicolumn{5}{r}{\emph{Fortsetzung auf der nächsten Seite}}
+  \endfoot
 
-  bild.de &
-    mypass, Facebook & ja & ja &
-    Volljährigkeit bzw. Einverständnis der Erziehungsberechtigten bei
-    Minderjährigen \\\hline
+  \bottomrule
+  \endlastfoot
 
-  spiegel.de & % Spalte 2 bei ''mein spiegel'' als Abonnent oder Nicht-Abonnent
-    Facebook & ja & ja\footnote{Es wird darauf hingewiesen, dass der Benutzername angezeigt wird.\label{foot:angezeigt}} &
-    \\\hline
+bild.de
+& mypass, Facebook
+& ja
+& ja
+& Volljährigkeit bzw. Einverständnis der Erziehungsberechtigten bei
+  Minderjährigen
+\\\midrule
 
-  faz.net & % Spalte 3 bei ''Mein FAZ.NET'' mit
-    keine & ja & nein &
-    \\\hline
+spiegel.de % Spalte 2 bei ''mein spiegel'' als Abonnent oder Nicht-Abonnent
+& Facebook
+& ja
+& ja\footnote{Es wird darauf hingewiesen, dass der Benutzername angezeigt
+  wird.\label{foot:angezeigt}}
+&
+\\\midrule
 
-  focus.de & % Spalte 4 bei FOCUS online
-    Facebook & ja\footnote{Es wird darauf hingewiesen, dass der Name im gesamten Internet recherchierbar ist.} & nein &
-    \\\hline
+faz.net % Spalte 3 bei ''Mein FAZ.NET'' mit
+& keine
+& ja
+& nein
+&
+\\\midrule
 
-  diewelt.de & % Spalte 5 bei WELT DIGITAL über
-    mypass, Disqus, Facebook, Twitter, Google & ja & ja &
-    als Gast schreiben \\\hline
+focus.de % Spalte 4 bei FOCUS online
+& Facebook
+& ja\footnote{Es wird darauf hingewiesen, dass der Name im gesamten Internet
+  recherchierbar ist.}
+& nein
+&
+\\\midrule
 
-  derwesten.de & % Spalte 6 auf derwesten.de mit
-    keine & ja & ja\footref{foot:angezeigt} &
-    jeder ist zugangs- und teilnahmeberechtigt \\\hline
+diewelt.de % Spalte 5 bei WELT DIGITAL über
+& mypass, Disqus, Facebook, Twitter, Google
+& ja
+& ja
+& als Gast schreiben
+\\\midrule
 
-  rp-online.de & % Spalte 9 bei mein RP ONLINE mit
-    keine & nein & ja &
-    auch Minderjährige, wenn sie sich über Nutzung bewusst sind bzw. mit
-    Einverständnis der Erziehungsberechtigten \\\hline
+derwesten.de % Spalte 6 auf derwesten.de mit
+& keine
+& ja
+& ja\footref{foot:angezeigt}
+& jeder ist zugangs- und teilnahmeberechtigt
+\\\midrule
 
-  handelsblatt.de & % Spalte 10 auf handelsblatt.de mit
-    keine & ja & nein &
-    Volljährigkeit \\\hline
+rp-online.de % Spalte 9 bei mein RP ONLINE mit
+& keine
+& nein
+& ja
+& auch Minderjährige, wenn sie sich über Nutzung bewusst sind bzw. mit
+  Einverständnis der Erziehungsberechtigten
+\\\midrule
 
-  suedkurier.de & % Spalte 11auf suedkurier.de mit
-    keine & ja & ja &
-    Anrede, Land, Adresse (Angaben werden auf Richtigkeit geprüft (teilweise
-    auch telefonisch); Einverständnis nach sechs Monaten Inaktivität wird
-    Registrierung/Benutzername gesperrt/freigegeben \\\hline
+handelsblatt.de % Spalte 10 auf handelsblatt.de mit
+& keine
+& ja
+& nein
+& Volljährigkeit
+\\\midrule
 
-  zeit.de & % Spalte 12 auf zeit.de mit
-    keine & nein & ja &
-    \\\hline
+suedkurier.de % Spalte 11auf suedkurier.de mit
+& keine
+& ja
+& ja
+& Anrede, Land, Adresse (Angaben werden auf Richtigkeit geprüft (teilweise auch
+  telefonisch); Einverständnis nach sechs Monaten Inaktivität wird
+  Registrierung/Benutzername gesperrt/freigegeben
+\\\midrule
 
-  badische-zeitung.de & % Spalte 13 bei Meine BZ mit
-    keine & ja & nein &
-    Anrede, Löschen des Accounts bei Wegwerf-Emailadresse
-    \\\hline
+zeit.de % Spalte 12 auf zeit.de mit
+& keine
+& nein
+& ja
+&
+\\\midrule
 
-  stuttgarter-zeitung.de & % Spalte 14 auf stuttgarterzeitung.de
-    Facebook & ja & nein &
-    \\\hline
+badische-zeitung.de % Spalte 13 bei Meine BZ mit
+& keine
+& ja
+& nein
+& Anrede, Löschen des Accounts bei Wegwerf-Emailadresse
+\\\midrule
 
-  merkur.de & % Spalte 15 bei Merkur-Online
-    Disqus, Facebook, Twitter, Google & nein & ja\footnote{Ein Benutzername ist erwünscht und soll angemessen sein.} &
-    als Gast schreiben \\\hline
+stuttgarter-zeitung.de % Spalte 14 auf stuttgarterzeitung.de
+& Facebook
+& ja
+& nein
+&
+\\\midrule
 
-  hna.de & % Spalte 16 mit HNA-Login
-    Disqus & nein & ja\footnote{Der Benutzername soll angemessen und nicht beleidigend/anstößig sein.} &
-    \\\hline
+merkur.de % Spalte 15 bei Merkur-Online
+& Disqus, Facebook, Twitter, Google
+& nein
+& ja\footnote{Ein Benutzername ist erwünscht und soll angemessen sein.}
+& als Gast schreiben
+\\\midrule
 
-  mopo.de & % Spalte 17
-    Disqus, Facebook, Twitter, Google & nein & nein &
-    \\\hline
+hna.de % Spalte 16 mit HNA-Login
+& Disqus
+& nein
+& ja\footnote{Der Benutzername soll angemessen und nicht beleidigend/anstößig
+  sein.}
+&
+\\\midrule
 
-  mainpost.de & % Spalte 18 auf Mainpost.de
-    keine & ja & ja\footnote{Der Benutzername soll nicht beleidigend, ehrverletzend, hetzerisch sein.} &
-    Adresse \\\hline
+mopo.de % Spalte 17
+& Disqus, Facebook, Twitter, Google
+& nein
+& nein
+&
+\\\midrule
 
-  tagesspiegel.de & % Spalte 19 auf tagesspiegel.de
-    keine & nein & ja\footnote{Der Benutzername soll angemessen sein.} &
-    \\\hline
+mainpost.de % Spalte 18 auf Mainpost.de
+& keine
+& ja
+& ja\footnote{Der Benutzername soll nicht beleidigend, ehrverletzend, hetzerisch
+  sein.}
+& Adresse
+\\\midrule
 
-  swp.de & % Spalte 20
-    keine & ja & ja &
-    \\\hline
+tagesspiegel.de % Spalte 19 auf tagesspiegel.de
+& keine
+& nein
+& ja\footnote{Der Benutzername soll angemessen sein.}
+&
+\\\midrule
 
-  augsburger-allgemeine.de &%spalte 21
-    keine & ja & ja & Wohnort, Ausschluss bei Mehrfach-/Scheinregistrierungen oder unter dem Namen anderer, bei Minderjährigen Einverständnis der Erziehungsberechtigten
-    \\\hline
+swp.de % Spalte 20
+& keine
+& ja
+& ja
+&
+\\\midrule
+
+augsburger-allgemeine.de %spalte 21
+& keine
+& ja
+& ja
+& Wohnort, Ausschluss bei Mehrfach-/Scheinregistrierungen oder unter dem Namen
+  anderer, bei Minderjährigen Einverständnis der Erziehungsberechtigten
 
 \end{longtable}
 \end{landscape}
