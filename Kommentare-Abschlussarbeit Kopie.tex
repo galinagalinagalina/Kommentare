@@ -1,0 +1,199 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+% \documentclass[12pt]{memoir}
+\documentclass[12pt,parskip=full]{scrreprt} % use larger type; default would be 10pt
+
+\usepackage[onehalfspacing]{setspace}
+\AfterTOCHead{\singlespacing}
+
+\KOMAoptions{DIV=last}
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage[ngerman]{babel}
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+\usepackage{pdflscape}
+\usepackage{longtable}
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+
+% \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+% \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+\usepackage{natbib}
+
+%%% The "real" document content comes below...
+
+% My font adaptions:
+% Euler for math | Palatino for rm | Helvetica for ss | Courier for tt
+%\renewcommand{\rmdefault}{ppl} % rm
+%\linespread{1.05}        % Palatino needs more leading
+%\usepackage[scaled]{helvet} % ss
+%\usepackage{courier} % tt
+%\usepackage{euler} % math
+%\usepackage{eulervm} % a better implementation of the euler package (not in gwTeX)
+%\normalfont
+%\usepackage[T1]{fontenc}
+
+\usepackage{libertine}
+\usepackage[T1]{fontenc}
+
+% Maybe colorize links?
+\usepackage[%
+  pdftitle={Kommentarmanagement auf deutschen Nachrichtenseiten},
+  pdfauthor={Nadine Ambrosch},
+  bookmarksnumbered,
+]{hyperref}
+
+%\setkomafont{date}{\large}
+%\setkomafont{author}{\large}
+\title{Kommentarmanagement auf deutschen Nachrichtenseiten}
+\subtitle{Abschlussarbeit im Aufbaustudiengang Journalistik}
+\author{Nadine Ambrosch}
+
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+
+\begin{spacing}{1}
+  \maketitle
+\end{spacing}
+
+\tableofcontents
+\listoftables
+
+\input{Einleitung}
+\input{Nutzerbeteiligung_im_Journalismus}
+\input{Positive_Aspekte_von_Kommentaren}
+\input{Probleme_mit_Kommentaren}
+\input{Kommentarmanagement}
+
+
+
+\input{Tabellen/Kommentare_Allgemeines}
+\input{Tabellen/Moderation}
+\input{Tabellen/Registrierung}
+\input{Tabellen/Inhaltliche_Regeln}
+\input{Tabellen/Formale_Regeln}
+\input{Tabellen/Kommentare_Funktionen}
+\input{Tabellen/Kommentare_Sonstiges}
+\input{Tabellen/Zusammenfassung}
+\input{Ergebnis_und_Ausblick}
+
+
+Hwang, Hyunseo. 2008. “Why Does Incivility Matter When Communicating Disagreement?:
+Examining the Psychological Process of Antagonism in Political Discussion.” Dissertation,
+University of Wisconsin-Madison
+
+Loke, J. (2013) “Readers’ Debate a Local Murder Trial: ‘Race’ in the Online
+Public Sphere.” Communication, Culture \& Critique 6 (1): 179–200.
+doi:10.1111/j.1753-9137.2012.01139.x.
+
+Paulussen, S. 2011. ``Inside the Newsroom Journalists’ motivations and organizational structures'' In: Practices
+
+
+Robinson, S. 2010. “Traditionalists vs. Convergers: Textual Privilege, Boundary Work, and the
+Journalist – Audience Relationship in the Commenting Policies of Online NewsSites.”
+Convergence: The International Journal of Research into New Media Technologies 16 (1):
+125–143. doi:10.1177/1354856509347719.
+
+Loke, J. (2013) “Readers’ Debate a Local Murder Trial: ‘Race’ in the Online
+Public Sphere.” Communication, Culture \& Critique 6 (1): 179–200.
+doi:10.1111/j.1753-9137.2012.01139.x.
+
+Loke, J. (2013) “Readers’ Debate a Local Murder Trial: ‘Race’ in the Online
+Public Sphere.” Communication, Culture \& Critique 6 (1): 179–200.
+doi:10.1111/j.1753-9137.2012.01139.x.
+
+
+
+
+„[\ldots] free expression and exposure to differing views can hold deliberative
+potential only when participants were respectful toward each other“ (Santana,
+2011, S. 7)
+
+
+
+
+„[\ldots] hostile or abusive user comments took time and effort to deal with
+[\ldots]“ (Quandt, 2011, S. 172)
+
+
+
+
+Moderation nötig, ...)
+
+
+And some saw a negative rather than a positive effect; for instance, hostile or
+abusive user comments took time and effort to deal with, making their jobs
+harder, not easier. Even aside from the nature of some comments, the overall
+volume of user input demanding to be fi ltered or fact - checked was a burden.
+(Reich, 2011, S. 172)
+
+
+
+
+Bereicherung der public agenda? Die Nachrichten werden einem präsentiert, aber
+nun gibt es auch die Möglichkeit darüber zu sprechen. Denn je mehr berichtet
+wird, umso mehr wird diskutiert. Dadurch dass die Kommentare unterbunden werden
+können, trifft das nicht mehr zu.
+
+ 
+
+„[\ldots] we can actually talk to these people now! And they can talk to us! And
+this is great!“ (Reich, 2011, S. 105).
+
+„In addition, media gatekeepers  turned older participation channels into
+exclusive spaces: Only those citizens whom the gatekeepers decided were
+worth hearing were allowed a public voice. Comment threads, in contrast,
+are inclusive spaces; most comments that do not break explicit rules of
+participation are included.“ (Reich, 2011, S. 97)
+
+\bibliographystyle{apalike2}
+\nocite{*}
+\bibliography{Literatur}
+
+\end{document}
+
