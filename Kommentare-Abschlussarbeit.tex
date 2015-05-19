@@ -5,7 +5,9 @@
 % See "book", "report", "letter" for other types of document.
 
 % \documentclass[12pt]{memoir}
-\documentclass[12pt,parskip=full]{scrreprt} % use larger type; default would be 10pt
+\documentclass[12pt,parskip=full,ngerman]{scrreprt} % use larger type; default would be 10pt
+
+\usepackage{showkeys}
 
 \usepackage[onehalfspacing]{setspace}
 \AfterTOCHead{\singlespacing}
@@ -13,7 +15,15 @@
 \KOMAoptions{DIV=last}
 
 \usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
-\usepackage[ngerman]{babel}
+\usepackage{babel}
+
+% For biblatex
+\usepackage{csquotes}% Recommended
+\usepackage[backend=biber,sorting=nyt,style=apa]{biblatex}
+\DeclareLanguageMapping{ngerman}{ngerman-apa}
+
+\addbibresource{Literatur.bib}
+
 
 %%% Examples of Article customizations
 % These packages are optional, depending whether you want the features they provide.
@@ -54,14 +64,14 @@
 % (This matches ConTeXt defaults)
 
 %%% ToC (table of contents) APPEARANCE
-\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
-\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+%\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+%\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
 
 % \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 % \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 
 %%% END Article customizations
-\usepackage{natbib}
+%\usepackage{natbib}
 
 %%% The "real" document content comes below...
 
@@ -191,9 +201,11 @@ worth hearing were allowed a public voice. Comment threads, in contrast,
 are inclusive spaces; most comments that do not break explicit rules of
 participation are included.“ (Reich, 2011, S. 97)
 
-\bibliographystyle{apalike2}
-\nocite{*}
-\bibliography{Literatur}
+%\bibliographystyle{apalike2}
+%\nocite{*}
+%\bibliography{Literatur}
+
+\printbibliography
 
 \end{document}
 
