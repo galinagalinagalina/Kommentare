@@ -5,9 +5,11 @@
 % See "book", "report", "letter" for other types of document.
 
 % \documentclass[12pt]{memoir}
-\documentclass[12pt,parskip=full,ngerman]{scrreprt} % use larger type; default would be 10pt
+\documentclass[12pt,parskip=full,ngerman,draft]{scrreprt} % use larger type; default would be 10pt
 
 \usepackage{showkeys}
+\usepackage{fixme}
+\fxusetheme{color}
 
 \usepackage[onehalfspacing]{setspace}
 \AfterTOCHead{\singlespacing}
@@ -94,6 +96,7 @@
   pdftitle={Kommentarmanagement auf deutschen Nachrichtenseiten},
   pdfauthor={Nadine Ambrosch},
   bookmarksnumbered,
+  draft=false
 ]{hyperref}
 
 %\setkomafont{date}{\large}
@@ -133,32 +136,32 @@
 \input{Ergebnis_und_Ausblick}
 
 
-Hwang, Hyunseo. 2008. “Why Does Incivility Matter When Communicating Disagreement?:
-Examining the Psychological Process of Antagonism in Political Discussion.” Dissertation,
-University of Wisconsin-Madison
-
-Loke, J. (2013) “Readers’ Debate a Local Murder Trial: ‘Race’ in the Online
-Public Sphere.” Communication, Culture \& Critique 6 (1): 179–200.
-doi:10.1111/j.1753-9137.2012.01139.x.
-
-Paulussen, S. 2011. ``Inside the Newsroom Journalists’ motivations and organizational structures'' In: Practices
-
-
-Robinson, S. 2010. “Traditionalists vs. Convergers: Textual Privilege, Boundary Work, and the
-Journalist – Audience Relationship in the Commenting Policies of Online NewsSites.”
-Convergence: The International Journal of Research into New Media Technologies 16 (1):
-125–143. doi:10.1177/1354856509347719.
-
-Loke, J. (2013) “Readers’ Debate a Local Murder Trial: ‘Race’ in the Online
-Public Sphere.” Communication, Culture \& Critique 6 (1): 179–200.
-doi:10.1111/j.1753-9137.2012.01139.x.
-
-Loke, J. (2013) “Readers’ Debate a Local Murder Trial: ‘Race’ in the Online
-Public Sphere.” Communication, Culture \& Critique 6 (1): 179–200.
-doi:10.1111/j.1753-9137.2012.01139.x.
-
-
-
+%Hwang, Hyunseo. 2008. “Why Does Incivility Matter When Communicating Disagreement?:
+%Examining the Psychological Process of Antagonism in Political Discussion.” Dissertation,
+%University of Wisconsin-Madison
+%
+%Loke, J. (2013) “Readers’ Debate a Local Murder Trial: ‘Race’ in the Online
+%Public Sphere.” Communication, Culture \& Critique 6 (1): 179–200.
+%doi:10.1111/j.1753-9137.2012.01139.x.
+%
+%Paulussen, S. 2011. ``Inside the Newsroom Journalists’ motivations and organizational structures'' In: Practices
+%
+%
+%Robinson, S. 2010. “Traditionalists vs. Convergers: Textual Privilege, Boundary Work, and the
+%Journalist – Audience Relationship in the Commenting Policies of Online NewsSites.”
+%Convergence: The International Journal of Research into New Media Technologies 16 (1):
+%125–143. doi:10.1177/1354856509347719.
+%
+%Loke, J. (2013) “Readers’ Debate a Local Murder Trial: ‘Race’ in the Online
+%Public Sphere.” Communication, Culture \& Critique 6 (1): 179–200.
+%doi:10.1111/j.1753-9137.2012.01139.x.
+%
+%Loke, J. (2013) “Readers’ Debate a Local Murder Trial: ‘Race’ in the Online
+%Public Sphere.” Communication, Culture \& Critique 6 (1): 179–200.
+%doi:10.1111/j.1753-9137.2012.01139.x.
+%
+%
+%
 
 „[\ldots] free expression and exposure to differing views can hold deliberative
 potential only when participants were respectful toward each other“ (Santana,
@@ -200,10 +203,6 @@ exclusive spaces: Only those citizens whom the gatekeepers decided were
 worth hearing were allowed a public voice. Comment threads, in contrast,
 are inclusive spaces; most comments that do not break explicit rules of
 participation are included.“ (Reich, 2011, S. 97)
-
-%\bibliographystyle{apalike2}
-%\nocite{*}
-%\bibliography{Literatur}
 
 \printbibliography
 
