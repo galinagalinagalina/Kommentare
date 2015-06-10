@@ -80,16 +80,16 @@
 
 % My font adaptions:
 % Euler for math | Palatino for rm | Helvetica for ss | Courier for tt
-%\renewcommand{\rmdefault}{ppl} % rm
+\renewcommand{\rmdefault}{ppl} % rm
 %\linespread{1.05}        % Palatino needs more leading
-%\usepackage[scaled]{helvet} % ss
-%\usepackage{courier} % tt
-%\usepackage{euler} % math
-%\usepackage{eulervm} % a better implementation of the euler package (not in gwTeX)
-%\normalfont
-%\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet} % ss
+\usepackage{courier} % tt
+\usepackage{euler} % math
+\usepackage{eulervm} % a better implementation of the euler package (not in gwTeX)
+\normalfont
 
-\usepackage{libertine}
+%\usepackage{libertine}
+
 \usepackage[T1]{fontenc}
 \usepackage[final]{microtype}
 
@@ -100,6 +100,7 @@
   bookmarksnumbered,
   draft=false
 ]{hyperref}
+\hypersetup{colorlinks}
 
 %\setkomafont{date}{\large}
 %\setkomafont{author}{\large}
