@@ -38,17 +38,18 @@ Ordnen nach bestimmten Kriterien angeboten. Auch hier will man dem Nutzer mit ve
 Optionen entgegenkommen.
 
 
-\begin{landscape} \footnotesize
-\begin{longtable}{lccp{100mm}}
+\begingroup
+\footnotesize
+\begin{longtable}{p{28mm}p{15mm}p{10mm}p{75mm}}
 
   \caption{Kategorie \glqq Funktionen beim Kommentar\grqq} \\ \\
   \toprule
-  \bfseries Portal & \bfseries Bewerten & \bfseries Antworten & \bfseries Sonstiges \\
-  \midrule[\heavyrulewidth]
+  \bfseries Portal & \bfseries Bewerten & \bfseries Antw. & \bfseries Sonstiges \\
+  \toprule
   \endfirsthead
 
   \toprule
-  \bfseries Portal & \bfseries Bewerten & \bfseries Antworten & \bfseries Sonstiges \\
+  \bfseries Portal & \bfseries Bewerten & \bfseries Antw. & \bfseries Sonstiges \\
   \midrule[\heavyrulewidth]
   \endhead
 
@@ -75,13 +76,13 @@ spiegel.de
 % Zeile 3
 faz.net
 & positiv
-&ja
+& ja
 & dem Kommentator folgen
 \\\midrule
 
 % Zeile 4
 focus.de
-& positiv und negativ\footnote{Positive und negative Bewertungen sind nur nach Anmeldung möglich}
+& positiv/""negativ\footnote{Positive und negative Bewertungen sind nur nach Anmeldung möglich}
 & ja
 &
 \\\midrule
@@ -90,7 +91,7 @@ focus.de
 welt.de & \multicolumn{3}{l}{\hspace{2cm}\em Oberfläche von Disqus}
 \\\cmidrule(lr){2-4}
 
-& positiv und negativ\footnote{Eine positive Bewertung ist nach Anmeldung oder
+& positiv/""negativ\footnote{Eine positive Bewertung ist nach Anmeldung oder
   als \glqq Gast\grqq{} möglich, eine negative Bewertung ist nur nach Anmeldung
   möglich}
 & ja
@@ -192,6 +193,6 @@ augsburger-allgemeine.de
 &
 
 \end{longtable}
-\end{landscape}
+\endgroup
 
 % vim: set ai si et tw=80 sts=2 ts=2 sw=2:
