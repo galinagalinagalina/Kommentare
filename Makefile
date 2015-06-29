@@ -3,7 +3,7 @@
 
 MAIN_DOC = Kommentare-Abschlussarbeit
 
-Kommentare-Abschlussarbeit.pdf : Kommentare-Abschlussarbeit.tex Tabellen/*.tex
+Kommentare-Abschlussarbeit.pdf : Kommentare-Abschlussarbeit.tex Kategorien/*.tex
 	pdflatex $(MAIN_DOC)
 	biber $(MAIN_DOC)
 	pdflatex $(MAIN_DOC)
