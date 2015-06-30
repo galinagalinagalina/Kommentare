@@ -1,10 +1,10 @@
 \section{Zusammenfassung}
 
+\fxnote{Hier die Legende anders machen? Als Fließtext? Oder Tabelle?}
+
 Moderation: was für eine Moderation wird gemacht\\
 Prä-M. = Prä-Moderation bzw. st. Prä-M. = stichprobenartige Prä-Moderation\\
 Post-M. = Post-Moderation bzw. st. Post-M. = stichprobenartige Post-Moderation\\
-
-
 
 
 Registrierung: Welche Angaben sind nötig zu einer Registrierung\\
@@ -20,59 +20,190 @@ Antwort: Gibt es die Option, direkt auf einen Kommentar zu antworten?
 
 Community: gibt es eine Community?
 
-\begin{landscape} \footnotesize
-\begin{longtable}{l|lllll}
-\caption{Zusammenfassung}
-\\
-\bfseries Portal 		&\bfseries Moderation &\bfseries Registr. &\bfseries Bewerten  &\bfseries Antwort &\bfseries Community\\ \hline
-\endfirsthead
-\bfseries Portal 		&\bfseries Moderation &\bfseries Bedingungen &\bfseries Registrierung 				&\bfseries Community\\ \hline
-\endhead
-\hline \multicolumn{6}{r}{\emph{Fortsetzung auf der nächsten Seite}}
-\endfoot
-\hline
-\endlastfoot
 
-%Spalte 1			&Moderation 		&Registrierung 		&Bewerten	 &Antworten	&Community
-bild.de			& keine			&KN, BN, alt		&ja		&ja		& ja		 \tabularnewline \hline
-%Spalte 2             
-spiegel.de			& Prä-M.			& KN, BN, alt		&nein	&ja			& ja 			\tabularnewline \hline
-%Spalte 3                
-faz.net			& Prä-M.			& KN 			&ja		&ja		& ja 			\tabularnewline \hline
-%Spalte 4               
-focus.de			& st. Prä-M.		& KN, alt			&ja		&ja			& ja 			\tabularnewline \hline
-% Spalte 5              
-welt.de			& Prä-M.			& KN, BN, alt  		&ja		& ja			&ja	 	\tabularnewline \hline
-% Spalte 6              
-derwesten.de		& keine			& KN, BN 		 	&nein	&ja			& nein 		\tabularnewline \hline
-% Spalte 9              
-rp-online.de		& keine			& BN 			&ja		&nein		& nein 		\tabularnewline \hline
-% Spalte 10             
-handelsblatt.com	& st. Post-M.		& KN 			&nein	&ja			& nein 		\tabularnewline \hline
-% Spalte 11              
-suedkurier.de		& st. Post-M.		& KN, BN 			&ja 		&ja			& nein		 \tabularnewline \hline
-% Spalte 12           
-zeit.de			& Prä-M.			& BN 			&ja		&ja			& nein		 \tabularnewline \hline
-% Spalte 13             
-badische-zeitung.de	& st. Post-M.		& KN 			&nein	&nein		& nein 		\tabularnewline \hline
-% Spalte 14             
-stuttgarter-zeitung.de	& Prä-M.			& KN, alt			&nein	&ja			& nein 		\tabularnewline \hline
-% Spalte 15             
-merkur.de			& keine			& BN, alt 			&ja		&ja			& ja 			\tabularnewline \hline
-% Spalte 16             
-hna.de			& keine			& BN, alt 			&ja		&ja			& ja 			\tabularnewline \hline
-% Spalte 17             
-mopo.de			& keine			& Dis, alt 			&ja		&ja			& ja			 \tabularnewline \hline
-% Spalte 18             
-mainpost.de		& Prä-M.			& KN, BN 			&ja	&ja			& ja			 \tabularnewline \hline
-% Spalte 19             
-tagesspiegel.de		& Prä-M.			& BN 			&nein	&ja			& nein 		\tabularnewline \hline
-% Spalte 20             
-swp.de			& keine/st. Post-M.	& KN, BN 			&ja		&ja			& nein 		\tabularnewline \hline
-% Spalte 21            
-augsburger-allgemeine.de& Post-M. 		& KN, BN 			&nein	&ja			& ja			 \tabularnewline \hline
+%\begin{landscape}
+\begingroup
+  \footnotesize
+  \begin{longtable}{p{28mm}*{5}{l}}
+
+    \caption{Zusammenfassung} \\*
+    \toprule
+    \bfseries Portal & \bfseries Moderation & \bfseries Registr. & \bfseries Bewerten & \bfseries Antwort
+    & \bfseries Community\\*\toprule
+    \endfirsthead
+
+    \toprule
+    \bfseries Portal & \bfseries Moderation & \bfseries Registr. & \bfseries Bewerten & \bfseries Antwort
+    & \bfseries Community\\*\toprule
+    \endhead
+
+    \multicolumn{6}{r}{\emph{Fortsetzung auf der nächsten Seite}}
+    \endfoot
+
+    \bottomrule
+    \endlastfoot
+
+bild.de
+& keine
+& KN, BN, alt
+& ja
+& ja
+& ja
+\\*\midrule
+
+spiegel.de
+& Prä-M.
+& KN, BN, alt
+& nein
+& ja
+& ja
+\\*\midrule
+
+faz.net
+& Prä-M.
+& KN
+& ja
+& ja
+& ja
+\\*\midrule
+
+focus.de
+& st. Prä-M.
+& KN, alt
+& ja
+& ja
+& ja
+\\*\midrule
+
+welt.de
+& Prä-M.
+& KN, BN, alt
+& ja
+& ja
+& ja
+\\*\midrule
+
+derwesten.de
+& keine
+& KN, BN
+& nein
+& ja
+& nein
+\\*\midrule
+
+rp-online.de
+& keine
+& BN
+& ja
+& nein
+& nein
+\\*\midrule
+
+handelsblatt.com
+& st. Post-M.
+& KN
+& nein
+& ja
+& nein
+\\*\midrule
+
+suedkurier.de
+& st. Post-M.
+& KN, BN
+& ja
+& ja
+& nein
+\\*\midrule
+
+zeit.de
+& Prä-M.
+& BN
+& ja
+& ja
+& nein
+\\*\midrule
+
+badische-zeitung.de
+& st. Post-M.
+& KN
+&nein
+&nein
+& nein
+\\*\midrule
+
+stuttgarter-zeitung.de
+& Prä-M.
+& KN, alt
+& nein
+& ja
+& nein
+\\*\midrule
+
+merkur.de
+& keine
+& BN, alt
+& ja
+& ja
+& ja
+\\*\midrule
+
+hna.de
+& keine
+& BN, alt
+& ja
+& ja
+& ja
+\\*\midrule
+
+mopo.de
+& keine
+& Dis, alt
+& ja
+& ja
+& ja
+\\*\midrule
+
+mainpost.de
+& Prä-M.
+& KN, BN
+& ja
+& ja
+& ja
+\\*\midrule
+
+tagesspiegel.de
+& Prä-M.
+& BN
+& nein
+& ja
+& nein
+\\*\midrule
+
+swp.de
+& keine/st. Post-M.
+& KN, BN
+& ja
+& ja
+& nein
+\\*\midrule
+
+augsburger-allgemeine.de
+& Post-M.
+& KN, BN
+& nein
+& ja
+& ja
+\\*\midrule
+
+
+% FIXME Legende?
 % REGISTRIERUNG (mypass = Anmeldung über ``mypass'', Fb = Facebook, Tw = Twitter, G = Google, Dis = Disqus)
 
-\end{longtable}
-\end{landscape}
+  \end{longtable}
+\endgroup
+%\end{landscape}
 
+\fxnote{Münchner Abendzeitung fehlt?}
+
+
+% vim: set ai si et tw=120 sts=2 ts=2 sw=2:
