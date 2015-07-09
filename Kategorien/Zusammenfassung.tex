@@ -1,38 +1,39 @@
 \section{Zusammenfassung}
-Ausgewählte Kategorien werden hier gekürzt 
-dargestellt.\\
-Die Spalte {\bf Moderation} sagt, was für eine Moderation gemacht wird.
-Die jeweiligen Moderationsarten werden wie folgt abgekürzt:\\
-Prä-M. = Prä-Moderation bzw. st. Prä-M. = stichprobenartige Prä-Moderation\\
-Post-M. = Post-Moderation bzw. st. Post-M. = stichprobenartige Post-Moderation\\
-Die Spalte {\bf Registrierung} sagt, welche Angaben nötig sind zu einer Registrierung: KN = Klarnamen, BN = Benutzername, alt = alternative Anmeldemöglichkeiten\\
-In der Spalte {\bf Bewerten} bzw. {\bf Antworten} geht es darum, ob der Nutzer die Option hat, den Kommentar zu bewerten bzw. auf einen 
-Kommentar zu antworten. \\
-Bei {\bf Community} geht es darum, ob eine solche vorhanden ist. dis gibt an, dass es sich um die Disqus-Community handelt. 
+
+Im Folgenden werden in Tabelle \ref{tab:zus} nochmals ausgewählte Kategorien kompakt dargestellt.
+
+Die Spalte {\bfseries Moderation} sagt, was für eine Moderation gemacht wird.
+Die jeweiligen Moderationsarten werden wie folgt abgekürzt:
+\begin{itemize}
+  \item Prä-M. = Prä-Moderation bzw. st.~Prä-M. = stichprobenartige Prä-Moderation
+  \item Post-M. = Post-Moderation bzw. st.~Post-M. = stichprobenartige Post-Moderation
+\end{itemize}
+
+Die Spalte {\bfseries Registrierung} sagt, welche Angaben nötig sind zu einer Registrierung:
+
+\begin{itemize}
+  \item KN = Klarnamen,
+  \item BN = Benutzername oder
+  \item alt = alternative Anmeldemöglichkeiten (Facebook, Disqus, Twitter oder google+)
 %alternative Anmeldemöglichkeiten: Fb = Facebook, Dis = Disqus, Tw = Twitter, G = Google
+\end{itemize}
+
+In der Spalte {\bfseries Bewerten} bzw. {\bfseries Antworten} geht es darum, ob der Nutzer die Option hat, den Kommentar
+zu bewerten bzw. auf einen Kommentar zu antworten.
+
+Bei {\bfseries Community} geht es darum, ob eine solche vorhanden ist. dis gibt an, dass es sich um die Disqus-Community
+handelt.
+
 
 
 %\begin{landscape}
-\begingroup
+\begin{table}
   \footnotesize
-  \begin{longtable}{p{28mm}*{5}{l}}
+  \caption{Zusammenfassung\label{tab:zus}}
+  \begin{tabular}{p{28mm}*{5}{l}}
 
-    \caption{Zusammenfassung} \\*
-    \toprule
-    \bfseries Portal & \bfseries Moderation & \bfseries Registr. & \bfseries Bewerten & \bfseries Antwort
-    & \bfseries Community\\*\toprule
-    \endfirsthead
-
-    \toprule
-    \bfseries Portal & \bfseries Moderation & \bfseries Registr. & \bfseries Bewerten & \bfseries Antwort
-    & \bfseries Community\\*\toprule
-    \endhead
-
-    \multicolumn{6}{r}{\emph{Fortsetzung auf der nächsten Seite}}
-    \endfoot
-
-    \bottomrule
-    \endlastfoot
+    \\\toprule
+    \bfseries Portal & \bfseries Moderation & \bfseries Registr. & \bfseries Bewerten & \bfseries Antwort & \bfseries Community\\*\toprule
 
 bild.de
 & keine
@@ -202,11 +203,12 @@ fr-online.de
 & ja
 & dis
 
+\\*\bottomrule
 % FIXME Legende?
 % REGISTRIERUNG (mypass = Anmeldung über ``mypass'', Fb = Facebook, Tw = Twitter, G = Google, Dis = Disqus)
 
-  \end{longtable}
-\endgroup
+  \end{tabular}
+\end{table}
 %\end{landscape}
 
 % vim: set ai si et tw=120 sts=2 ts=2 sw=2:
