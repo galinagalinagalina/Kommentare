@@ -107,6 +107,7 @@
 \usepackage[%
   pdftitle={Kommentarmanagement auf deutschen Nachrichtenseiten},
   pdfauthor={Nadine Ambrosch},
+  pdfpagelabels,
   bookmarksnumbered,
   draft=false,
   hidelinks% For printed PDF
@@ -127,15 +128,23 @@
 
 \begin{document}
 
+\pagenumbering{Alph}
 \begin{spacing}{1}
   \maketitle
 \end{spacing}
+
+\setcounter{page}{1}
+\pagenumbering{roman}
 
 \blankpage
 \tableofcontents
 \listoftables
 
 \blankpage
+\blankpage
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
 
 \input{Einleitung}
 \input{Nutzerbeteiligung_im_Journalismus}
