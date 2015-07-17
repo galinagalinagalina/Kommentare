@@ -110,10 +110,10 @@
   pdfpagelabels,
   bookmarksnumbered,
   draft=false,
-  hidelinks% For printed PDF
+  %hidelinks% For printed PDF
 ]{hyperref}
 % No colors for printed PDF
-%\hypersetup{colorlinks}
+\hypersetup{colorlinks}
 
 %\setkomafont{date}{\large}
 %\setkomafont{author}{\large}
@@ -133,10 +133,10 @@
   \maketitle
 \end{spacing}
 
+\blankpage
 \setcounter{page}{1}
 \pagenumbering{roman}
 
-\blankpage
 \tableofcontents
 \listoftables
 
